@@ -1,0 +1,28 @@
+#! /bin/sh
+# /etc/init.d/storm-web-control-startup
+
+### BEGIN INIT INFO
+# Provides:		storm-web-control-startup
+# Required-Start:	$remote_fs $syslog
+# Required-Stop:	$remote_fs $syslog
+# Default-Start:	2 3 4 5
+# Default-Stop:		0 1 6
+# Short-Description:	Script to start the storm web control application at startup.
+# Description:		Script to start the storm web control application at startup.
+### END INIT INFO
+
+case "$1" in
+  start)
+	echo "Starting Storm Web Control"
+	sudo ./home/storm/web/storm-web-control.sh
+	;;
+  stop)
+	echo "Stopping Storm Web Control"
+	;;
+  *)
+	echo "Usage: /etc/init.d/storm-web-control-startup {start|stop}"
+	exit 1
+	;;
+esac
+
+exit 0
