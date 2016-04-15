@@ -45,12 +45,12 @@ void loop() {
   Read_Frequencies();
   leds();
   //Graph_Frequencies();
-  delay(100);
+  delay(10);
 }
 
 void leds() {
   for (int i=0; i<7; i++) {
-    if(Frequencies_One[i] > 300) {
+    if(Frequencies_One[i] > 750) {
       digitalWrite(ledPins[i], HIGH);
     } else {
       digitalWrite(ledPins[i], LOW);
