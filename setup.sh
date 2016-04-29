@@ -11,4 +11,9 @@ rm audio/readme
 mkdir /music/MusicBox/storm
 mv audio/* /music/MusicBox/storm/
 
+apt-get install -y arduino
+apt-get install make
+apt-get install picocom
+pip install ino
+
 reboot
