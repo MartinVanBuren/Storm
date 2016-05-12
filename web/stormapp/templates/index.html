@@ -1,19 +1,22 @@
-<!doctype html>
-<html ng-app="storm">
+<!DOCTYPE html>
+<html lang="en" ng-app="storm">
 	<head>
-	<title>Storm Control</title>
-	<link rel="shortcut icon" href="{{ url_for('static', filename='content/favicon.ico') }}">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	<script data-require="angular.js@1.5.5" data-semver="1.5.5" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
-	<script data-require="angular-route@*" data-semver="1.4.8" src="https://code.angularjs.org/1.4.8/angular-route.js"></script>
-	<script src="static/storm.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="static/content/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="static/lib/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="static/lib/storm.css">
+		<script src="static/lib/angular.min.js"></script>
+		<script src="static/lib/angular-route.js"></script>
+		<script src="static/storm.js"></script>
+
+		<title>Storm Control</title>
 	</head>
 
 	<body>
-		<div ng-include src="static/partials/header.html"></div>
+		<div ng-include="'static/partials/header.html'"></div>
 
-		<div></div>
+		<div class="container view">Dicks</div>
 
-		<div ng-include src="static/partials/footer.html"></div>
+		<div ng-include="'static/partials/footer.html'"></div>
 	</body>
 </html>

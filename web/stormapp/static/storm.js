@@ -1,6 +1,6 @@
 (function() {
 
-	var app = angular.module('storm', ['ngRoute']);
+	var app = angular.module('storm', []);
 
 	
 

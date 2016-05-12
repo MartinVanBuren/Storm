@@ -1,3 +1,3 @@
 #!/bin/sh
-script='/home/storm/web/webapp.py'
+script='/home/storm/web/stormapp/stormapp.py'
 sudo python $script &
