@@ -29,5 +29,8 @@ cd /home/storm/arduino/sketch
 ino init
 mv -f /home/storm/arduino/arduino.ino src/sketch.ino
 
+# Install python serial library
+apt-get install -y python-serial
+
 # Finish
 reboot
