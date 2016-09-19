@@ -1,0 +1,156 @@
+footer {
+	background-color: #222222;
+	color: #9D9D9D;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 40px;
+}
+
+footer > p {
+	vertical-align: center;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+}
+
+body {
+	background-color: #3C3C3C;
+	color: whitesmoke;
+	overflow-x: hidden;
+	overflow-y: auto;
+	margin-bottom: 40px;
+}
+
+html {
+	overflow: hidden;
+	position: relative;
+	min-height: 100%;
+}
+
+a {
+	color: whitesmoke;
+}
+
+a:hover {
+	color: #b3b3b3;
+}
+
+.help-block {
+	color: #b3b3b3;
+}
+
+.help-block > a {
+	color: #b3b3b3;
+	text-decoration: underline;
+}
+
+.help-block > a:hover {
+	color: whitesmoke;
+}
+
+/* Panels */
+
+.panel-body {
+	background-color: #3C3C3C;
+}
+
+.panel {
+	background-color: #3C3C3C;
+}
+
+.panel-default > .panel-heading {
+	background-color: #222222;
+	border-color: #222222;
+	color: whitesmoke;
+}
+
+.panel-default {
+	border-color: #222222;
+}
+
+.panel-danger > .panel-heading {
+	background-color: #E74C3C;
+	border-color: #E74C3C;
+	color: white;
+}
+
+.panel-danger {
+	border-color: #E74C3C;
+}
+
+.panel-info > .panel-heading {
+	background-color: #3498db;
+	border-color: #3498db;
+	color: white;
+}
+
+.panel-warning > .panel-heading {
+	background-color: #f39c12;
+	border-color: #f39c12;
+	color: white;
+}
+
+.panel-warning {
+	border-color: #f39c12;
+}
+
+.panel-success > .panel-heading {
+	background-color: #3c763d;
+	border-color: #3c763d;
+	color: white;
+}
+
+.panel-success {
+	border-color: #3c763d;
+}
+
+/* Form Groups */
+
+.has-error {
+	color: #E74C3C;
+}
+
+.has-warning {
+	color: #F39C12;
+}
+
+.has-success {
+	color: #3c763d;
+}
+
+/* Alerts */
+
+.alert-danger {
+	background-color: #E74C3C;
+	border-color: #E74C3C;
+	color: white;
+}
+
+.alert-warning {
+	background-color: #F39C12;
+	border-color: #F39C12;
+	color: white;
+}
+
+.alert-success {
+	background-color: #3c763d;
+	border-color: #3c763d;
+	color: white;
+}
+
+.alert-info {
+	background-color: #3498db;
+	border-color: #3498db;
+	color: white;
+}
+
+img.center {
+  position: absolute;
+  top: 0; 
+  bottom: 200px; 
+  left: 0; 
+  right:0;
+  margin: auto;
+}
