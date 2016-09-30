@@ -7,11 +7,14 @@ app = Flask(__name__)
 def Index():
 	return render_template("index.html")
 
+@app.route("/<path:p>", methods=['GET'])
+def Angular(p):
+	return render_template("index.html")
+
 @app.route("/api/test")
 def Test():
 	print("This is a test! :D")
 	return ""
-
 	
 if __name__ == "__main__":
 	app.run(host='0.0.0.0', port=8080, debug=True)

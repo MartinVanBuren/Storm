@@ -12,7 +12,8 @@ angular.module('storm', ['ngComponentRouter'])
 .component('storm', {
 	templateUrl: 'static/storm.component.html',
 	$routeConfig: [
-		{ path: '/', name: 'Dash', component: 'dash', useAsDefault: true }
+		{ path: '/', name: 'Dash', component: 'dash', useAsDefault: true },
+		{ path: '/test', name: 'Test', component: 'test' }
 	],
 	controller: [NavController],
 	controllerAs: 'nav'

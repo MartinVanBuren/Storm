@@ -10,7 +10,7 @@ angular.module('storm')
 });
 
 function DashController() {
-	
+	this.test = "Test"
 }
 
 })();
